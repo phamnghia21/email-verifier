@@ -1,0 +1,25 @@
+{
+  "name": "email-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "",
+    "dev": "NODE_ENV=development DEBUG=email-verifier:* node src/index.js",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "email-deep-validator": "^3.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11",
+    "requestify": "^0.2.5",
+    "xss": "^1.0.6"
+  }
+}
